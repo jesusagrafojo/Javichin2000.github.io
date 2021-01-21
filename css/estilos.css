@@ -1,0 +1,147 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+#mostrar, #ocultar{display: none;}
+
+body{
+	background-color: #333333;
+	color: white;
+	font-family: Verdana, Arial;
+}
+
+#contenedor{
+	width: 1100px;
+	margin: 0 auto;
+}
+
+header{
+	margin-top: 15px;
+}
+
+nav{
+	width: 225px;
+	float: right;
+	padding: 10px;
+}
+
+img{width: 100%;}
+
+h1{
+	padding: 10px 10px;
+	text-align: center;
+}
+
+main{
+	width: 850px;
+	float: left;
+}
+
+article{
+	border: 1px solid white;
+	padding: 10px;
+	margin-bottom: 15px;
+	border-radius: 10px;
+}
+
+li{
+	list-style-type: none;
+	padding: 4px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+	background-color: white;
+	color:  #333333;
+	padding: 2px 8px 2px 8px;
+	border-radius: 10px;
+}
+
+footer{
+	clear: both;
+	padding-top: 10px;
+}
+
+footer p{
+	margin-top: 10px;
+	border-top: 1px solid white;
+	padding: 10px;
+	text-align: center;
+}
+
+
+/* ------------------------------ RESPONSIVE ------------------------------ */
+
+@media (max-width: 1100px) {
+
+	#mostrar{display: none;}
+	
+	#contenedor{
+		width: 92%;
+	}
+	nav{
+		width: 100%;
+		float: none;
+		margin-bottom: 15px;	
+	}
+	li{
+		display: inline-block;
+	}
+	main{
+		width: 100%;
+		float: none;
+	}
+
+}
+
+@media (max-width: 600px) {
+
+	#mostrar{display: block;}
+	
+	nav{
+		display: none;
+	}
+	button{	
+		width: 100%;
+		font-size: 25px;
+		padding: 5px 0px 5px 0px;
+		font-weight: bold;		
+		margin:10px 0px 15px 0px;
+	}
+	li{
+		display: block;
+		font-weight: bold;
+		padding: 7px 0px 7px 0px;
+	}
+	
+	a:hover{
+	background-color: #333333;
+	color:  white;
+	padding: 0px;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
